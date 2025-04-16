@@ -1,0 +1,12 @@
+# Ignorar virtual env, arquivos de build, etc
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+.DS_Store
+dist/
+build/
+.vscode/
