@@ -1,12 +1,17 @@
-# Ignorar virtual env, arquivos de build, etc
-venv/
+# Ignorar arquivos compilados
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
-*.sqlite3
+
+# Banco de dados local
 *.db
-.DS_Store
-dist/
+
+# Pastas do PyInstaller
 build/
+dist/
+*.spec
+
+# Pastas do VSCode
 .vscode/
+
+# Arquivos temporários
+*.log
